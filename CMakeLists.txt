@@ -15,10 +15,6 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 # https://stackoverflow.com/questions/13116488/detailed-guide-on-using-gcov-with-cmake-cdash
 #list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/modules")
 
-if (CMAKE_COMPILER_IS_GNUCXX)
-    include(CodeCoverage)
-endif ()
-
 #-------------------
 # set common include folder for module
 #-------------------
