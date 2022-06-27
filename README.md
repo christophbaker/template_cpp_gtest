@@ -1,2 +1,9 @@
-# template_cpp_gtest
-C++ Google Test Template 
+# C++ Google Test Template 
+
+```
+$❯ cmake -S . -B build
+$❯ cmake --build build
+$❯ cd build
+$❯ make test
+$❯ cd ..
+```
