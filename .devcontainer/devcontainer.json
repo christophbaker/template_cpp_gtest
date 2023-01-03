@@ -1,0 +1,17 @@
+{
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"extensions": [
+		"ms-vscode.cpptools",
+		"ms-vscode.cmake-tools",
+		"twxs.cmake",
+		"vadimcn.vscode-lldb",
+		"cheshirekow.cmake-format",
+		"eamodio.gitlens",
+		"xaver.clang-format",
+	],
+	"remoteEnv": {
+		"DISPLAY": ":0"
+	}
+}
